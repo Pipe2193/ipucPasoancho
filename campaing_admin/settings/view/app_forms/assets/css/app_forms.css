@@ -1,0 +1,79 @@
+#app_forms .date{
+	width: 12%;
+	text-align: center;
+}
+#app_forms .name{
+	width: 15%;
+}
+#app_forms .mail{
+	width: 15%;
+}
+#app_forms .mail a{
+	color: #680439;
+}
+#app_forms .mail i{
+	font-size: 18px;
+	width: 28px;
+	text-align: center;
+}
+#app_forms .phon{
+	width: 15%;
+}
+#app_forms .phon a{
+	color: #680439;
+}
+#app_forms .phon i{
+	font-size: 20px;
+	font-weight: bold;
+	width: 18px;
+	text-align: center;
+}
+#app_forms .acct{
+	width: 15%;
+	text-align: center;
+}
+#app_forms .deal{
+	width: 7%;
+	text-align: center;
+}
+#app_forms .reps{
+	width: 5%;
+	text-align: center;
+}
+#app_forms .prof_email_number{
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	padding: 0px 5px 0px;
+	color: #680439;
+}
+#app_forms .prof{
+	width: 5%;
+	text-align: center;
+}
+#app_forms .supp{
+	width: 10%;
+	text-align: center;
+}
+#app_forms td{
+	vertical-align: middle;
+}
+#app_forms tfoot tr th,
+#app_forms thead tr th{
+	background-color: rgba(0,0,0,0.1);
+} 
+#app_forms tbody tr td{
+	font-size: 15px;
+} 
+.pagination>.active>a, 
+.pagination>.active>a:focus, 
+.pagination>.active>a:hover, 
+.pagination>.active>span, 
+.pagination>.active>span:focus, 
+.pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #680439;
+    border-color: #f5f5f5;
+}
